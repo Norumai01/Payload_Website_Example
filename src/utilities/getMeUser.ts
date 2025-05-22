@@ -4,6 +4,8 @@ import { redirect } from 'next/navigation'
 import type { User } from '../payload-types'
 import { getClientSideURL } from './getURL'
 
+
+// Ignore this file, not being used.
 export const getMeUser = async (args?: {
   nullUserRedirect?: string
   validUserRedirect?: string
